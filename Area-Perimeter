@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include<math.h>
+#define PI 3.142857
+
+//Coded by Bhanu Prakash Reddy dtd 13/10/2021 
+// Assignments from the book Let us C - Y Kanetkar
+//Chapter 1 : F(e) Area perimeter
+int main( )
+{
+float length,breadth, radius;
+float Area_rec,Perimeter_rec, Area_cir,Perimeter_cir;
+printf("Please enter the length of the rectangle :");
+scanf("%f", &length);
+printf("Please enter the breadth of the rectangle :");
+scanf("%f", &breadth);
+printf("Please enter the radius of the circle:");
+scanf("%f", &radius);
+Area_rec = length*breadth;
+Perimeter_rec = 2*(length+breadth);
+Area_cir = PI * pow(radius,2);
+Perimeter_cir = 2*PI*radius;
+printf("The area of rectangle: %f\n",Area_rec);
+printf("The perimeter of rectangle: %f\n",Perimeter_rec);
+printf("The area of circle: %f\n",Area_cir);
+printf("The perimeter of rectangle: %f\n",Perimeter_cir);
+
+}
