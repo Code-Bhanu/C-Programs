@@ -1,0 +1,35 @@
+// Bhanu Prakash Reddy dtd 13/10/2021
+int main()
+{
+   int A0,A1,A2,A3,A4,A5,A6,A7,A8;
+   int l0,b0,l1,b1,l2,b2,l3,b3,l4,b4,l5,b5,l6,b6,l7,b7,l8,b8;
+   l0 = 1189;
+   b0 = 841;
+   printf("The dimensions of A0 paper is Length:%d, Breadth:%d\n",l0,b0);
+   l1 = b0;
+   b1 = l0/2;
+   printf("The dimensions of A0 paper is Length:%d, Breadth:%d\n",l1,b1);
+   l2 = b1;
+   b2 = l1/2;
+   printf("The dimensions of A0 paper is Length:%d, Breadth:%d\n",l2,b2);
+   l3 = b2;
+   b3 = l2/2;
+   printf("The dimensions of A0 paper is Length:%d, Breadth:%d\n",l3,b3);
+   l4 = b3;
+   b4 = l3/2;
+   printf("The dimensions of A0 paper is Length:%d, Breadth:%d\n",l4,b4);
+   l5 = b4;
+   b5 = l4/2;
+   printf("The dimensions of A0 paper is Length:%d, Breadth:%d\n",l5,b5);
+   l6 = b5;
+   b6 = l5/2;
+   printf("The dimensions of A0 paper is Length:%d, Breadth:%d\n",l6,b6);
+   l7 = b6;
+   b7 = l6/2;
+   printf("The dimensions of A0 paper is Length:%d, Breadth:%d\n",l7,b7);
+   l8 = b7;
+   b8 = l7/2;
+   printf("The dimensions of A0 paper is Length:%d, Breadth:%d\n",l8,b8);
+   
+    return 0;
+}
