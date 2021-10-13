@@ -1,0 +1,24 @@
+#include <stdio.h>
+//Coded by Bhanu Prakash Reddy dtd 13/10/2021 
+// Assignments from the book Let us C - Y Kanetkar
+//Chapter 1 : F(c) Marks - Percentage
+int main( )
+{
+int subject1,subject2,subject3,subject4,subject5;
+float Average, Percentage; 
+printf("Please enter the student marks in subject1 ");
+scanf("%d", &subject1);
+printf("Please enter the student marks in subject2 ");
+scanf("%d", &subject2);
+printf("Please enter the student marks in subject3 ");
+scanf("%d", &subject3);
+printf("Please enter the student marks in subject4 ");
+scanf("%d", &subject4);
+printf("Please enter the student marks in subject5 ");
+scanf("%d", &subject5);
+Average = (subject1+subject2+subject3+subject4+subject5)/5;
+Percentage = (subject1+subject2+subject3+subject4+subject5)/500.0*100;
+printf("The Average of the marks : %f\n",Average );
+printf("The Percentage of the marks : %f", Percentage);
+
+}
