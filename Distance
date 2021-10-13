@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main( )
+{
+int distance;
+printf("Please enter distance between two cities in km: ");
+scanf("%d", &distance);
+printf("The entered distance :%d meters\n",distance*1000 );
+printf("The entered distance :%d centimeters\n",distance*1000*10 );
+printf("The entered distance :%f feet\n",distance*3280.84 );
+printf("The entered distance :%f inches\n",distance*39370.1 );
+
+}
