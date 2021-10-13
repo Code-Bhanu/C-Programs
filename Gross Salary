@@ -1,0 +1,10 @@
+int main( )
+{
+int basic, DA, HRA, Gross;
+printf("Please enter your basic salary: ");
+scanf("%d", &basic);
+DA = 0.4*basic;
+HRA = 0.2*basic;
+Gross = basic+DA+HRA;
+printf("Your Gross Salary is:%d", Gross);
+}
