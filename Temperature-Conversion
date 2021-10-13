@@ -1,0 +1,12 @@
+//Coded by Bhanu Prakash Reddy dtd 13/10/2021 
+// Assignments from the book Let us C - Y Kanetkar
+//Chapter 1 : F(d) Temperature conversion
+int main( )
+{
+float centi, faren;
+printf("Please enter the temperature in farenheit :");
+scanf("%f", &faren);
+centi = (5/9.0)*(faren-32);
+printf("The temperature in celcius : %f\n",centi );
+
+}
