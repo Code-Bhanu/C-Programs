@@ -1,0 +1,54 @@
+#include <stdio.h>
+// Coded by Bhanu Prakash Reddy Dtd 14/10/2021
+// Sum of five digit number
+int main()
+{
+    int num, last, first, sum=0;
+    printf("Enter a 5 digit number (less than 32767):");
+    scanf("%d", &num);
+    last = num%10;
+    first = num/10;
+    printf ("Number= %d\n", num);
+    printf("Last digit = %d\n", last);
+    printf("First digits = %d\n", first);
+    sum = sum + last;
+    
+    num = first;
+    
+    last = num%10;
+    first = num/10;
+    printf ("Number= %d\n", num);
+    printf("Last digit = %d\n", last);
+    printf("First digits = %d\n", first);
+     sum = sum + last;
+    
+    num = first;
+    
+    last = num%10;
+    first = num/10;
+    printf ("Number= %d\n", num);
+    printf("Last digit = %d\n", last);
+    printf("First digits = %d\n", first);
+     sum = sum + last;
+    
+    num = first;
+    
+    last = num%10;
+    first = num/10;
+    printf ("Number= %d\n", num);
+    printf("Last digit = %d\n", last);
+    printf("First digits = %d\n", first);
+     sum = sum + last;
+    
+    num = first;
+    
+    last = num%10;
+    first = num/10;
+    printf ("Number= %d\n", num);
+    printf("Last digit = %d\n", last);
+    printf("First digits = %d\n", first);
+     sum = sum + last;
+    
+    printf("The sum of all digits in the number is %d", sum);
+    
+}
