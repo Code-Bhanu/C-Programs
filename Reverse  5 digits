@@ -1,0 +1,56 @@
+// Coded by Bhanu Prakash Reddy Dtd 14/10/2021
+// Reverse 5 digit number
+#include <stdio.h>
+
+int main()
+{
+    int num, last, first, sum=0;
+    printf("Enter a 5 digit number (less than 32767):");
+    scanf("%d", &num);
+    last = num%10;
+    first = num/10;
+    printf ("Number= %d\n", num);
+    printf("Last digit = %d\n", last);
+    printf("First digits = %d\n", first);
+    sum =  last * 10000;
+    
+    
+    num = first;
+    
+    last = num%10;
+    first = num/10;
+    printf ("Number= %d\n", num);
+    printf("Last digit = %d\n", last);
+    printf("First digits = %d\n", first);
+    sum = sum + last * 1000;
+    
+    num = first;
+    
+    last = num%10;
+    first = num/10;
+    printf ("Number= %d\n", num);
+    printf("Last digit = %d\n", last);
+    printf("First digits = %d\n", first);
+     sum = sum + last* 100;
+    
+    num = first;
+    
+    last = num%10;
+    first = num/10;
+    printf ("Number= %d\n", num);
+    printf("Last digit = %d\n", last);
+    printf("First digits = %d\n", first);
+    sum = sum + last * 10;
+    
+    num = first;
+    
+    last = num%10;
+    first = num/10;
+    printf ("Number= %d\n", num);
+    printf("Last digit = %d\n", last);
+    printf("First digits = %d\n", first);
+    sum = sum + last * 1;
+    
+    printf("The reverse order number is %d", sum);
+    
+}
