@@ -1,0 +1,16 @@
+// Interchange of numbers - Bhanu Prakash Reddy dtd 15/10/2021
+#include <stdio.h>
+int main()
+{
+    int c,d,e;    
+   printf("Enter the value of  c= ");
+   scanf ("%d", &c);
+   printf("Enter the value of  d= ");
+   scanf ("%d", &d);
+   e=d;
+   d=c;
+   c=e;
+   printf ("The interchanged values are c=%d, d=%d", c, d);
+   
+ 
+}
