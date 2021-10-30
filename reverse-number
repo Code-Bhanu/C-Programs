@@ -1,0 +1,36 @@
+//Bhanu prakash reddy dtd 30/10/2021
+//Reversal of a number
+#include <stdio.h>
+
+int main()
+{
+    int number,x,last,first;
+    printf("Enter a five digit number : ");
+    scanf("%d",&number);
+    first = number;
+    last = number % 10;
+    x = last * 10000;
+    
+    number = number / 10;
+    last = number % 10;
+    x = x+ last * 1000;
+    
+    number = number / 10;
+    last = number % 10;
+    x = x+ last * 100;
+    
+    number = number / 10;
+    last = number % 10;
+    x = x+ last * 10;
+    
+    number = number / 10;
+    last = number % 10;
+    x = x+ last * 1;
+    
+    printf("reversed number = %d",x);
+    
+    if (first == x)   
+        printf("\nThe number and reversed number are the same");
+    else
+        printf("\nThe number and reversed number are the different");
+}
