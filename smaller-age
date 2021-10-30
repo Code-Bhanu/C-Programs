@@ -1,0 +1,31 @@
+//Bhanu prakash reddy dtd 30/10/2021
+//Smaller age
+#include <stdio.h>
+
+int main()
+{
+    int Ram,Shyam,Ajay;
+    printf("Enter the age of Ram: ");
+    scanf("%d",&Ram);
+    printf("Enter the age of Shyam: ");
+    scanf("%d",&Shyam);
+    printf("Enter the age of Ajay: ");
+    scanf("%d",&Ajay);
+    if (Ram < Shyam)
+        {
+            if (Ram < Ajay)
+                printf("Ram is younger");
+            else
+                if(Ajay < Shyam)
+                printf("Ajay is younger");
+        }
+    else
+       {
+           if (Shyam > Ajay)
+            printf("Ajay is younger");
+           else
+            printf("Shyam is younger");
+       }
+    
+ return 0;  
+ }
