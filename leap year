@@ -1,0 +1,27 @@
+// Bhanu prakash reddy 30/10/2021
+// leap year 
+#include <stdio.h>
+
+int main()
+{
+  int year;
+  printf("Enter an year ");
+  scanf("%d",&year);
+  if ((year%100)==0)
+    {
+    printf ("It's a Century year\n");
+    if ((year%400)==0)
+      printf ("It's a leap year also\n");
+    else
+      printf ("It's not a leap year\n");
+    } 
+  else
+    {
+        printf ("It's a non-Century year\n");
+        if ((year%4) == 0)
+        printf("It's a leap year\n");
+        else
+        printf("It's not a leap year\n");
+    }
+ return 0; 
+ }
