@@ -1,0 +1,14 @@
+//Bhanu prakash reddy dtd 30/10/2021
+//absolute value
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("Enter a number(positive/negaive): ");
+    scanf("%d",&num);
+    if(num < 0 )
+        num = num * -1;
+    printf("\nThe absolute value of the number :%d",num);
+    return 0;  
+ }
