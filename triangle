@@ -1,0 +1,15 @@
+//Bhanu prakash reddy dtd 30/10/2021
+//traingle or not
+#include <stdio.h>
+
+int main()
+{
+    int x,y,z;
+    printf("Enter three angles of traingle: ");
+    scanf("%d%d%d",&x,&y,&z);
+    if((x+y+z) == 180)
+        printf("It's a traingle");
+    else
+        printf("It's not a traingle");
+    return 0;  
+ }
