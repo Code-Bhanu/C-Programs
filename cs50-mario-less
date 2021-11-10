@@ -1,0 +1,29 @@
+// Bhanu prakash reddy dtd 10/11/2021
+//mario - cs50
+#include <stdio.h>
+
+int main()
+{
+    int height,i,j,k,l;
+    do{
+    printf("Height: ");
+    scanf("%d", &height); 
+    }
+    while((height<1) || (height>8));
+    
+    l = height;
+    
+    for(i=0;i<height;i++)
+    {
+        for(k=l-1; k>0; k--)
+        {
+            printf(" ");
+        }
+        
+        for(j=0;j<=i;j++)
+        {
+            printf("#");
+        }
+        printf("\n");
+        l--;
+    }
